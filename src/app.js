@@ -1,13 +1,16 @@
 const express = require('express')
 require('./mongoose/db/mongoose')
+const checkAuth = require('./API/checkAuth')
 const postRouter = require('./mongoose/router/post')
 
 const app = express()
 const port = process.env.PORT
 
-//It parses request body with JSON payloads	 
+//to parse request body with JSON payloads	 
 app.use(express.json())
-//It creates a new instance of a route
+//to check incoming api key
+app.use(checkAuth)
+//to create a new instance of a route
 app.use(postRouter)
 
 app.get('/', (req,res)=>{
