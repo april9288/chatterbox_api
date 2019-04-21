@@ -1,0 +1,23 @@
+{
+  "name": "chatter",
+  "version": "1.0.0",
+  "description": "chatter box api",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "env-cmd ./config/dev.env nodemon src/app.js"
+  },
+  "engines": {
+    "node": "10.13.0"
+  },
+  "author": "James Jongho Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "env-cmd": "^8.0.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "firebase": "^5.10.0",
+    "mongoose": "^5.5.2"
+  }
+}
