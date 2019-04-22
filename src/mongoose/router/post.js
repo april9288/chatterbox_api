@@ -1,3 +1,4 @@
+require('../db/mongoose')
 const express = require('express')
 const Post = require('../model/post')
 const router = new express.Router()
