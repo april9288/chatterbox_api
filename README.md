@@ -1,5 +1,5 @@
 # chatterbox_api
-> restful api playground
+> restful api playground :whale:
 
 ## What is it?
 It's your rest api playground!
