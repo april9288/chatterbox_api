@@ -32,7 +32,7 @@ x-api-key : <the API key from James!!!>
 This is very important. On your request, below address should come first before endpoints.
 
 ```
-https://chatterbox.herokuapp.com/
+https://chatterla.herokuapp.com/
 ```
 
 ### 4. Endpoints
