@@ -92,8 +92,32 @@ To delete a post
 [DELETE] /firebase/<id>
 ```
 
+
 #### :elephant: Postgresql :elephant:
+
+To retrieve all the posts
 ```
+[GET] /postgres 
+```
+
+To post a message
+```
+[POST] /postgres
+```
+
+To retrieve a post
+```
+[GET] /postgres/<id>
+```
+
+To update a post
+```
+[PUT] /postgres/<id>
+```
+
+To delete a post
+```
+[DELETE] /postgres/<id>
 ```
 
 ## Built With
