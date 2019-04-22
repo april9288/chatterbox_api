@@ -18,7 +18,17 @@ x-api-key : <the API key from James!!!>
 
 ```
 
-### 2. Server URL is 
+### 2. Your request body should look like below
+
+```
+{
+	text:"I need to go grocery shopping tomorrow",
+	roomname:"Torrance",
+	username:"James"
+}
+```
+
+### 3. Server URL is 
 
 This is very important. On your request, below address should come first before endpoints
 
@@ -26,21 +36,64 @@ This is very important. On your request, below address should come first before 
 https://chatterbox.herokuapp.com/
 ```
 
-### 3. Endpoints
+### 4. Endpoints
 
 #### Mongoose & Mongo DB
-```
-[GET] /mongoose to retrieve all the posts
-[POST] /mongoose to post a text
 
-
+To retrieve all the posts
 ```
-
-Firebase
-```
+[GET] /mongoose 
 ```
 
-Postgresql
+To post a message
+```
+[POST] /mongoose
+```
+
+To retrieve a post
+```
+[GET] /mongoose/id
+```
+
+To update a post
+```
+[PUT] /mongoose/id
+```
+
+To delete a post
+```
+[DELETE] /mongoose/id
+```
+
+
+#### Firebase
+
+To retrieve all the posts
+```
+[GET] /firebase 
+```
+
+To post a message
+```
+[POST] /firebase
+```
+
+To retrieve a post
+```
+[GET] /firebase/id
+```
+
+To update a post
+```
+[PUT] /firebase/id
+```
+
+To delete a post
+```
+[DELETE] /firebase/id
+```
+
+#### Postgresql
 ```
 ```
 
