@@ -52,17 +52,17 @@ To post a message
 
 To retrieve a post
 ```
-[GET] /mongoose/id
+[GET] /mongoose/<id>
 ```
 
 To update a post
 ```
-[PUT] /mongoose/id
+[PUT] /mongoose/<id>
 ```
 
 To delete a post
 ```
-[DELETE] /mongoose/id
+[DELETE] /mongoose/<id>
 ```
 
 
@@ -80,17 +80,17 @@ To post a message
 
 To retrieve a post
 ```
-[GET] /firebase/id
+[GET] /firebase/<id>
 ```
 
 To update a post
 ```
-[PUT] /firebase/id
+[PUT] /firebase/<id>
 ```
 
 To delete a post
 ```
-[DELETE] /firebase/id
+[DELETE] /firebase/<id>
 ```
 
 #### Postgresql
