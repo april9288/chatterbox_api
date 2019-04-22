@@ -38,7 +38,7 @@ https://chatterbox.herokuapp.com/
 
 ### 4. Endpoints
 
-#### Mongoose & Mongo DB
+#### :evergreen_tree: Mongoose & Mongo DB :evergreen_tree:
 
 To retrieve all the posts
 ```
@@ -66,7 +66,7 @@ To delete a post
 ```
 
 
-#### Firebase
+#### :fire: Firebase :fire: 
 
 To retrieve all the posts
 ```
@@ -93,7 +93,7 @@ To delete a post
 [DELETE] /firebase/<id>
 ```
 
-#### Postgresql
+#### :elephant: Postgresql :elephant:
 ```
 ```
 
